@@ -37,7 +37,7 @@ public class VoiceDisput {
             }
             System.out.println("Победило яйцо! )))"); // объявляем победителем
         } else {
-            System.out.println("Победила курица! )))"); // если работать уже закончил работу
+            System.out.println("Победила курица! )))"); // если побочный поток уже закончил работу (isAlive == false)
         }
         System.out.println("Спор окончен! )))");        //другой победитель
     }
